@@ -4,6 +4,22 @@ Script para realizar masivamente el control de la facturación de los monotribut
 
 ## El licenciamiento es con GPL (es decir que no se puede distribuir comercialmente, solamente GRATIS). y si se utiliza este el código, su derivado también debe ser distribuido abierta y gratuitamente. 
 
+Los pasos para instalar el programa es:
+    
+    ֎ Descargar el instalador (el .exe)
+
+    ֎ Instalar el programa con doble click en el .exe
+
+Existen actualmente 2 versiones del Programa:
+
+    ֎ la V 1.0 : requiere que los archivos de Mis Comprobantes tengan un formato de nombre específico 
+
+        Fin de CUIT - MCE  - Periodo (en formato AAAAMM) - CUIT (sin guiones) - Nombre .xlxs
+
+        Ejemplo : "0 - MCE - 202304 - 20374730429 - Agustin Bustos.xlsx"
+
+    ֎ la V 1.0.1: No requiere nombres específicos pero requiere que existe la primer fila donde dice "Mis Comprobantes Recibidos - CUIT XXXXXXXXXXX"
+
 Los pasos para ejecutar el Script suele ser el siguiente:
 
     ֎ Descargarse Python (https://www.python.org/downloads/)
