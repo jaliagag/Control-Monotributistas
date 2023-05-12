@@ -18,7 +18,15 @@ Existen actualmente 2 versiones del Programa:
 
         Ejemplo : "0 - MCE - 202304 - 20374730429 - Agustin Bustos.xlsx"
 
-    ֎ la V 1.0.1: No requiere nombres específicos pero requiere que existe la primer fila donde dice "Mis Comprobantes Recibidos - CUIT XXXXXXXXXXX"
+    ֎ la V 1.0.1: No requiere nombres específicos pero requiere que existe la primer fila donde dice "Mis Comprobantes Recibidos - CUIT XXXXXXXXXXX" 
+
+Una vez instalado el programa se debe ejecutarlo, para lo cual es importante:
+
+    ֎ Actualizar el Excel de "Categorias.xlsx" con las categorías de monotributo vigentes y el periodo a analizar
+
+    ֎ Completar un Excel con la lista de los archivos a analizar (existe un ejemplo donde se encuentra el instalado el programa llamado "Ejemplo de Lista.xlsx")
+
+        ֎ En caso de no tener listados los Excels con sus ubicaciones Existe el Boton de "listador" que genera "Archivos.txt" con la lista de los archivos de Excel en la carpeta seleccionada. Luego hay que depurar los archivos de Excel que no sean de Mis Comprobantes.
 
 Los pasos para ejecutar el Script suele ser el siguiente:
 
